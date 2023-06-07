@@ -5,8 +5,8 @@ import { ReactiveFormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { AssetAllocationComponent } from './asset-allocation/asset-allocation.component';
-import { HorizontalTableComponent } from './horizontal-table';
 import { AssetAllocationService } from './asset-allocation/asset-allocation.service';
+import { HorizontalTableComponent } from './horizontal-table/horizontal-table.component';
 
 @NgModule({
   imports: [

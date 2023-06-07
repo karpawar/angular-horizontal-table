@@ -4,10 +4,13 @@ import { Injectable } from '@angular/core';
 export class AssetAllocationService {
   constructor() {}
 
+  /**
+   * Write a ge api call here to pass the params & add http get call
+   */
   getFundsList() {
     return [
       {
-        morningStartId: '2433',
+        morningStarId: 'MM3qqw1',
         ticker: '2343wterg',
         equityAmount: 39,
         fixedIncome: 50,
@@ -17,7 +20,7 @@ export class AssetAllocationService {
         Other: 0,
       },
       {
-        morningStartId: '2431',
+        morningStarId: 'MM3qqw2',
         ticker: '2343wterg',
         equityAmount: 40,
         fixedIncome: 50,
@@ -27,7 +30,7 @@ export class AssetAllocationService {
         Other: 0,
       },
       {
-        morningStartId: '2432',
+        morningStarId: 'MM3qqw3',
         ticker: '2343wterg',
         equityAmount: 50,
         fixedIncome: 50,
