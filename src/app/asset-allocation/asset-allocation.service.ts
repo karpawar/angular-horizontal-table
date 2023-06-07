@@ -17,7 +17,7 @@ export class AssetAllocationService {
         cash: 20,
         nonUsEquity: 20,
         nonUsFixedIncome: 30,
-        Other: 0,
+        other: 0.0,
       },
       {
         morningStarId: 'MM3qqw2',
@@ -27,7 +27,7 @@ export class AssetAllocationService {
         cash: 20,
         nonUsEquity: 20,
         nonUsFixedIncome: 30,
-        Other: 0,
+        other: 0.23,
       },
       {
         morningStarId: 'MM3qqw3',
@@ -37,7 +37,7 @@ export class AssetAllocationService {
         cash: 20,
         nonUsEquity: 20,
         nonUsFixedIncome: 30,
-        Other: 0,
+        other: 20.1,
       },
     ];
   }
